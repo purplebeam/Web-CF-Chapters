@@ -1,0 +1,63 @@
+body{
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aueb-img {
+    width: 100%;
+    height: auto;
+    border: 2px double white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: blueviolet;
+}
+
+nav a:focus{
+    color: blue;
+}
+
+nav a:hover  {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: blue;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    background-color: brown;
+    color: white;
+    border: 1px solid white;
+}
+
+pre {
+    background-color: white;
+    border: 1px solid black;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
