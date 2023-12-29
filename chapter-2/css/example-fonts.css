@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+
+}
+
+.cf-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    border: 2px double green;
+}
+
+.cf-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.courses-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    color: #237762;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+    text-decoration: underline;
+    border-bottom: 2px solid white;
+    border-left: 2px solid red;
+    border-right: 2px solid orange;
+    border-top: 2px solid green;
+    
+}
+
+.courses-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: justify;
+    background-color: rgb(0, 0, 255, 0.4);
+}
+
+.aueb-img {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+}
