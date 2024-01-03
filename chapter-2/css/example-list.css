@@ -48,3 +48,7 @@ a:active {
     background-color: green;
     color: white;
 }
+
+.ol-text {
+    list-style-type: upper-alpha;
+}

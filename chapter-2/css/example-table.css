@@ -25,6 +25,12 @@ tbody {
     font-weight: 500;
 }
 
+tfoot {
+    background-color: darkkhaki;
+    
+
+}
+
 tr:nth-child(even) {
     background-color: lightblue;
 }

@@ -1,0 +1,94 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo h1 {
+    font-size: 100px;
+    color:bisque;
+    text-align: center;
+}
+
+.logo h3 {
+    font-size: 30px;
+    color:bisque;
+    text-decoration:underline;
+    text-align: center;
+}
+
+.streaming-now-box h3 {
+    border-bottom: 10px solid bisque;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    font-size: 48px;
+    color: bisque;
+
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+.streaming-now-card {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+}
+
+.streaming-now-card div {
+    width: 40%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    
+}
+
+.streaming-now-card img {
+    padding-top: 5px;
+    border-radius: 15px 15px;
+    border: 6px solid bisque;
+}
+
+.streaming-now-card input {
+    width: 160px;
+    height: 50px;
+    border-radius: 15px 15px;
+    border-width: 0px;
+    background-color: bisque;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+.streaming-now-card h4 {
+    font-size: 30px;
+    color:azure;
+}
+
+.streaming-now-card h5 {
+    font-size: 20px;
+    color: bisque;
+}
+
+input:hover {
+    background-color: blueviolet;
+    font-size: larger;
+}

@@ -1,0 +1,70 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outter-container {
+    width: 30%;
+    margin: 10% auto;
+    padding: 30px 30px;
+    background-color: cornflowerblue;
+    text-align: center;
+    min-height: 300px;
+}
+
+.inner-container {
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px 10px;
+    background-color: antiquewhite;
+}
+
+.login-title {
+    padding-bottom: 20px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-input {
+    margin-bottom: 10px;
+    width: 60%;
+    border-width: 0px;
+    border-radius: 5px 5px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.password-title {
+    margin-bottom: 10px;
+    width: 60%;
+    border-width: 0px;
+    border-radius: 5px 5px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.signin-input {
+    margin-bottom: 10px;
+    width: 60%;
+    font-size: 20px;
+    border-width: 0px;
+    background-color: cornflowerblue;
+    border-radius: 5px 5px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.lost-pwd a {
+    color: grey;
+    font-size: large;
+}
+
+.acc-create{
+    color: antiquewhite;
+    font-size: large;
+}
+
+.acc-create a {
+    color: antiquewhite;
+}

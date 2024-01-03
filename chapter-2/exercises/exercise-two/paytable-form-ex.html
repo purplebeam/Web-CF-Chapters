@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+    <!-- 
+        Όνομα: Κωνσταντίνος
+        Επίθετο: Παπαγεωργίου
+        Email: konvpapageorgiou@gmail.com
+
+        Άσκηση 2.2  - WEB - Coding Factory 5
+    -->
+
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="./css/paytable-form-ex.css">
+        </head>
+        
+        <body>
+
+            <div class="payment-card">
+                <div>
+                    <h1>Φόρμα Πληρωμής</h1>
+
+                    <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required Field">*</abbr></p>
+
+                    <div>
+                        <h2>Πρωσοπικά Στοιχεία</h2>
+                            <div>
+                                <fieldset>
+                                    <legend>Title</legend>
+                                    <form>
+                                        <div class="radio-inputs">
+                                            <input type="radio" id="mr" name="title" value="male">
+                                            <label for="mr">Mr.</label>
+                                        </div>
+                                
+                                        <div class="radio-inputs">
+                                            <input type="radio" id="mrs" name="title" value="female">
+                                            <label for="mrs">Mrs.</label>
+                                        </div>
+                                
+                                        <div class="radio-inputs">
+                                            <input type="radio" id="dr" name="title" value="other">
+                                            <label for="dr">Dr.</label>
+                                        </div>
+                                    </form>
+                                </fieldset>
+                                
+                                
+                            </div>
+                        
+                        <div>
+
+                            <form>
+                                
+                                    <div class="name-container">
+                                    <label class= "text-field" for="name">Name: <abbr title="Required Field">*</abbr></label>
+                                    <input class="in-length" type="text" id="name" name="name" required>
+                                    </div>
+                                    
+                                    <div class="email-container">
+                                    <label for="email">Email: <abbr title="Required Field">*</abbr></label>
+                                    <input class="in-length" type="text" id="email" name="email" required>
+                                    </div>
+                                
+                                    <div class="password-container">
+                                    <label  for="password">Password: <abbr title="Required Field">*</abbr></label>
+                                    <input class="in-length" type="password" id="password" name="password" required>
+                                    </div>
+
+                            </form>
+                        </div>
+
+                        <div>
+
+                            <h2>Πληροφορίες Πληρωμής</h2>
+
+                            <form>
+
+
+                                <div class="cardtype-pos">
+
+
+                                    <label for="cardtype">Card Type:  <abbr title="Required Field">*</abbr></label>
+                                    <select class="incardtype" name="cardtype" id="cardtype" value="cardtype" required>
+
+                                        <option value="selectcard" selected disabled>Select Card</option>
+                                        <option value="visa">Visa</option>
+                                        <option value="mastercard">Master Card</option>
+                                        <option value="amex">American Express</option>
+                                        <option value="discover">Discover</option>
+                                    </select>
+                                </div>
+
+                                <div class="cardnumber-pos">
+                                    <label for="cardnumber">Card Number:  <abbr title="Required Field">*</abbr></label>
+                                    <input class="in2-length" type="number" id="cardnumber" name="cardnumber" pattern="[0-9]{16}" placeholder="1234 5678 9123 4567" value="cardnumber">
+                                </div>
+
+                                <div class="expdate-pos">
+                                <label for="expirationdate">Expiration Date: </label>
+                                <input class="in2-length" type="month" id="expirationdate" name="expirationdate" placeholder="YYYY-MM"  required>
+                                </div>
+
+
+                                <input class="submit-btn" type="submit" value="Προχωρήστε στην Πληρωμή">
+
+                                
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+    </html>

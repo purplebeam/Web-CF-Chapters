@@ -1,0 +1,78 @@
+.payment-card {
+    width: 20%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px 10px;
+}
+
+fieldset {
+    text-align: left;
+    margin-left: 50%;
+}
+
+.name-container {
+    display: block;
+    width: 80%;
+    margin-left: 34.2%;
+    margin-top: 20px;
+
+}
+
+.email-container {
+    display: block;
+    width: 80%;
+    margin-left: 34.1%;
+    margin-top: 10px;
+}
+
+.password-container {
+    display: block;
+    width: 85%;
+    margin-left: 28%;
+    margin-top: 10px;
+}
+
+.in-length {
+    padding-left: 33px;
+}
+
+abbr {
+    color: red;
+}
+
+select {
+    margin-left: 0%;
+}
+
+.cardtype-pos {
+    width: 80%;
+    margin-left: 26.5%;
+}
+
+.cardnumber-pos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 21%;
+}
+
+.expdate-pos {
+    width: 80%;
+    margin-left: 20.5%;
+    margin-bottom: 30px;
+}
+
+.in2-length {
+    padding-left: 31px;
+}
+
+.incardtype {
+    padding-left: 60px;
+}
+
+.submit-btn {
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
+}

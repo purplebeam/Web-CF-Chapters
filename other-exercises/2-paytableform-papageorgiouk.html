@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+    <!-- 
+        Όνομα: Κωνσταντίνος
+        Επίθετο: Παπαγεωργίου
+        Email: konvpapageorgiou@gmail.com
+
+        Άσκηση 2  - WEB - Coding Factory 5
+    -->
+
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        
+        <body>
+
+            <h1>Φόρμα Πληρωμής</h1>
+
+            <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required Field">*</abbr></p>
+
+            <div>
+                <h2>Πρωσοπικά Στοιχεία</h2>
+                    <div>
+                        <fieldset style="width: 450px;">
+                            <legend>Title</legend>
+                                <form>
+                                    
+                                        <label for="mr">Mr.</label>
+                                        <input type="radio" id="mr" value="male"><br>
+
+                                        <label for="mrs">Mrs.</label>
+                                        <input type="radio" id="mr" value="female"><br>
+
+                                        <label for="dr">Dr.</label>
+                                        <input type="radio" id="dr" value="other"><br>
+
+                                </form>
+                        </fieldset>
+                        
+                    </div>
+                <br>
+                <div>
+
+                    <form>
+
+                        <label for="name">Name: <abbr title="Required Field">*</abbr></label>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">Email: <abbr title="Required Field">*</abbr></label>
+                        <input type="text" id="email" name="email" required><br><br>
+
+                        <label for="password">Password: <abbr title="Required Field">*</abbr></label>
+                        <input type="password" id="password" name="password" required><br><br>
+
+                    </form>
+                </div>
+
+                <div>
+
+                    <h2>Πληροφορίες Πληρωμής</h2>
+
+                    <form>
+
+                        <label for="cardtype">Card Type:  <abbr title="Required Field">*</abbr></label>
+                        <select name="cardtype" id="cardtype" value="cardtype" required>
+
+                            <option value="selectcard" selected disabled>Select Card</option>
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">Master Card</option>
+                            <option value="amex">American Express</option>
+                            <option value="discover">Discover</option>
+                        </select><br><br>
+
+                        <label for="cardnumber">Card Number:  <abbr title="Required Field">*</abbr></label>
+                        <input type="number" id="cardnumber" name="cardnumber" pattern="[0-9]{16}" placeholder="1234 5678 9123 4567" value="cardnumber"><br><br>
+
+                        <label for="expirationdate">Expiration Date: </label>
+                        <input type="month" id="expirationdate" name="expirationdate" placeholder="YYYY-MM" value = "expirationdate" required><br><br>
+
+
+                        <input type="submit" value="Προχωρήστε στην Πληρωμή">
+
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </body>
+
+    </html>
